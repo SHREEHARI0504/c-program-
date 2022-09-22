@@ -1,11 +1,13 @@
-#include<stdio.h>
-int main()
+#include <stdio.h>
+void main()
 {
- int a=1;
- while(a<=20)
+int a,b;
+a=b=10;
+while(a)
  {
-
- printf(" shree ");
- a=a+1;
+ a=b<=13;
+printf("%d %d\n", a,b);
+b=1+b;
 }
+
 }
